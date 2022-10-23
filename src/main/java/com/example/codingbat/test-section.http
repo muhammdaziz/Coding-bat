@@ -1,0 +1,12 @@
+POST localhost:8090/api/section/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBjb2RpbmdiYXQuY29tIiwiaWF0IjoxNjY1MDU1OTE1LCJleHAiOjE2NjUxMjc5MTV9.Ttmj484HA6vrLUTEzwkaRxreFUUTXj5zvJ1liYR4Lho5-0Oz0is3EVUeIH2Fv0dVvaUUkvchGbnj7nrDkEt-mA
+
+{
+  "id": 1,
+  "title": "String 1",
+  "languageId": 1,
+  "description": "Bunda string haqida urganamiz",
+  "maxRate": 8
+}
+
